@@ -65,12 +65,6 @@
 
 **本仓库保存 GitHub Pages 静态发布产物，不包含完整 Vue 源码。** `index.html` 是入口，`assets/` 为构建资源，`gallery/` 与 `images/` 为展示素材；Pages 从 `main` 根目录发布。这里没有 `package.json` 或 npm 开发／构建命令，也不包含三个项目的源码，它们分别位于上面的项目仓库。
 
-下载本仓库后，可用静态 HTTP 服务预览根目录，例如已安装 Python 时：
-
-```bash
-python -m http.server 8000
-```
-
-然后打开 <http://localhost:8000/>；在线体验直接使用上方作品集网址即可。
+直接体验已部署的网站：**[打开吕帅超的作品集 →](https://lsc-261013.github.io/lv-shuaichao-portfolio/)**。
 
 以 AI 协作推进项目实现，主要代码和自动化测试由 AI 完成；我负责需求梳理、交互方案、页面问题定位、体验验收与迭代取舍。
