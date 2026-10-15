@@ -6,6 +6,10 @@
 
 [拾页](https://lsc-261013.github.io/lv-shuaichao-portfolio/#shiye) · [一口一口瘦](https://lsc-261013.github.io/lv-shuaichao-portfolio/#diet) · [GroundDesk](https://lsc-261013.github.io/lv-shuaichao-portfolio/#grounddesk)
 
+[![作品集真实首页：深色首屏、分层参考卡片与三个项目入口](docs/images/portfolio-home.png)](https://lsc-261013.github.io/lv-shuaichao-portfolio/)
+
+作品集真实首页 · 桌面浏览器截图（2026-10-14）。点击图片进入网站，体验滚动转场与互动展厅。
+
 ## 不止看截图，也能动手体验
 
 - **把参考编成一页方案：**首屏素材随自然滚动进入拾页画板，可拖动、用方向键调整、整理和重置，也可切换查看真实编辑器。
@@ -30,7 +34,7 @@
 
 **[查看作品集中的流程](https://lsc-261013.github.io/lv-shuaichao-portfolio/#diet) · [项目源码](https://github.com/lsc-261013/fat-loss-mini)**
 
-第二版已于 **2026 年 10 月 14 日上午上线微信**。作品集展示实际 H5 流程截图；这里未提供公开 H5 应用入口。食谱、计划与记录使用本地存储，推荐按规则生成。
+第二版已于 **2026 年 10 月 14 日上午上线微信**；此处展示实际 H5 流程截图。食谱、计划与记录使用本地存储，推荐按规则生成。
 
 ### 03 / GroundDesk · 有依据的客服问答
 
@@ -63,8 +67,8 @@
 
 作品集以 **Vue 3 Composition API、TypeScript、Vite** 实现，使用 CSS 变量与原生滚动组织转场、指针反馈和分步展示，并为截图提供临近预取、加载与失败反馈。
 
-**本仓库保存 GitHub Pages 静态发布产物，不包含完整 Vue 源码。** `index.html` 是入口，`assets/` 为构建资源，`gallery/` 与 `images/` 为展示素材；Pages 从 `main` 根目录发布。这里没有 `package.json` 或 npm 开发／构建命令，也不包含三个项目的源码，它们分别位于上面的项目仓库。
+本仓库用于 **GitHub Pages 静态发布**；三个应用的源码见各项目链接。
 
 直接体验已部署的网站：**[打开吕帅超的作品集 →](https://lsc-261013.github.io/lv-shuaichao-portfolio/)**。
 
-以 AI 协作推进项目实现，主要代码和自动化测试由 AI 完成；我负责需求梳理、交互方案、页面问题定位、体验验收与迭代取舍。
+我负责需求梳理、交互取舍、页面问题定位与体验验收，结合 AI 工具推进实现与迭代。各项目中的具体问题、方案选择和改进结果，可在作品集内展开查看。
